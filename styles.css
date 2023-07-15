@@ -10,7 +10,7 @@
     display: block;
     margin: auto;
     width: 100%;
-    height: 500px;
+    height: 530px;
     background:  #1f2937;
 }
  #header > p{
@@ -36,9 +36,10 @@
  }
  #main-title{
     width: 450px;
-    height: 300px;
+    height: 2px;
     margin-left: 200px;
     margin-top: 125px;
+ 
  }
  #main-title h1{
     font-weight: bolder;
@@ -60,3 +61,16 @@
     font-size: 18px;
     font-weight: bold;
  }
+ #placeholder{
+    background: #6e757c;
+    height:240px ;
+    width: 500px;
+    float: right;
+    margin-right: 170px;
+  
+}
+#placeholder > p{
+    padding-top: 115px;
+    text-align:center;
+    color: #e5e7eb;
+}
