@@ -1,110 +1,194 @@
-*{
-    margin: 0px auto;
-    font-family:Arial, Helvetica, sans-serif;
+/*generales*/
+* {
+   margin: 0px auto;
+   font-family: Arial, Helvetica, sans-serif;
 }
-.clearfix{
-    float: none;
-    clear: both;
+
+.clearfix {
+   float: none;
+   clear: both;
 }
-#header{
-    display: block;
-    margin: auto;
-    width: 100%;
-    height: 530px;
-    background:  #1f2937;
+/* header*********************/
+#header {
+   display: block;
+   margin: auto;
+   width: 100%;
+   height: 530px;
+   background: #1f2937;
 }
- #header > p{
-    float: left;
-    padding-top: 20px;
-    padding-left: 200px;
-    color: #f9faf8;
-    font-size: 24px;
- }
- #nav{
-    float: right;
-    padding-right: 170px;
-    padding-top: 25px;
- }
- #nav li ,a{
-    color: #e5e7eb;
-    font-size: 18px;
-    list-style: none;
-    text-decoration: none;
-    float: left;
-    text-align: right;
-    padding-left: 10px;
- }
- #main-title{
-    width: 450px;
-    height: 2px;
-    margin-left: 200px;
-    margin-top: 125px;
- 
- }
- #main-title h1{
-    font-weight: bolder;
-    font-size: 48px;
-    color: #f9faf8;
- }
- #main-title p{
-    font-size: 18px;
-    color:#e5e7eb;
- }
- #main-title button{
-    background: #3882f6;
-    margin-top: 20px;
-    height: 35px;
-    width: 125px;
-    border: #3882f6;
-    border-radius: 10px 10px 10px 10px;
-    color: #f9faf8;
-    font-size: 18px;
-    font-weight: bold;
- }
- #placeholder{
-    background: #6e757c;
-    height:240px ;
-    width: 500px;
-    float: right;
-    margin-right: 170px;
-  
+
+#header>p {
+   float: left;
+   padding-top: 20px;
+   padding-left: 200px;
+   color: #f9faf8;
+   font-size: 24px;
 }
-#placeholder > p{
-    padding-top: 115px;
-    text-align:center;
-    color: #e5e7eb;
+/*NAV ********************/
+#nav {
+   float: right;
+   padding-right: 170px;
+   padding-top: 25px;
 }
-main{
-   height: 400px;
+
+#nav li,
+a {
+   color: #e5e7eb;
+   font-size: 18px;
+   list-style: none;
+   text-decoration: none;
+   float: left;
+   text-align: right;
+   padding-left: 10px;
+}
+/*TITLES ***************/
+#main-title {
+   width: 450px;
+   height: 2px;
+   margin-left: 200px;
+   margin-top: 125px;
+
+}
+
+#main-title h1 {
+   font-weight: bolder;
+   font-size: 48px;
+   color: #f9faf8;
+}
+
+#main-title p {
+   font-size: 18px;
+   color: #e5e7eb;
+}
+
+#main-title button {
+   background: #3882f6;
+   margin-top: 20px;
+   height: 35px;
+   width: 125px;
+   border: #3882f6;
+   border-radius: 10px 10px 10px 10px;
+   color: #f9faf8;
+   font-size: 18px;
+   font-weight: bold;
+}
+/*PLACEHOLDER ********************/
+#placeholder {
+   background: #6e757c;
+   height: 240px;
+   width: 500px;
+   float: right;
+   margin-right: 170px;
+
+}
+
+#placeholder>p {
+   padding-top: 115px;
+   text-align: center;
+   color: #e5e7eb;
+}
+/*final del header****************************/
+/*INICIO MAIN********************************/
+main {
    display: block;
 }
-main >section > h2 {
+/* PRIMERA SECCION */
+#informative-section {
+   height: 400px;
+}
+
+#informative-section>h2 {
    font-weight: bolder;
    color: #1f2937;
    font-size: 36px;
    text-align: center;
    margin-top: 50px;
 }
-#box-container{
+
+#box-container {
    display: block;
    align-items: center;
    padding-left: 250px;
    padding-top: 40px;
 
 }
-#boxes{
+
+#boxes {
    float: left;
    align-items: center;
-   border:4px solid #3882f6;
+   border: 4px solid #3882f6;
    border-radius: 20px 20px 20px 20px;
    height: 160px;
    width: 160px;
    margin-left: 40px
 }
-#box-container > p{
+
+#box-container>p {
    float: left;
    width: 150px;
    padding-top: 10px;
    padding-left: 60px;
    color: #6e757c;
 }
+
+/* SEGUNDA SECCION */
+#quote-section {
+   background: #e5e7eb;
+   height: 400px;
+}
+
+#quote-section>p {
+   font-size: 36px;
+   font-style: italic;
+   font-weight: lighter;
+   width: 750px;
+   padding-top: 90px;
+   letter-spacing: 2px;
+}
+
+#quote-section>h4 {
+   float: right;
+   font-size: 28px;
+   padding-right: 317px;
+}
+
+/* TERCERA SECCION */
+#call-action{
+   height: 300px;
+}
+#call-box{
+   height: 150px;
+   width: 1000px;
+   background: #3882f6;
+   border-radius: 15px 15px 15px 15px;
+   margin-top: 93px;
+}
+#text-call-box{
+   float: left;
+}
+ #p1{
+   font-size: 24px;
+   font-weight: bolder;
+   padding-top: 40px;
+   padding-left: 100px;
+   color: #f9faf8;
+}
+ #p2{
+   padding-left: 100px;
+   color: #e5e7eb;
+}
+#call-box button{
+   color: #f9faf8;
+   background: #3882F6;
+   height: 40px;
+   width: 125px;
+   border: 2px solid #F9FAF8;
+   border-radius: 10px 10px 10px 10px; 
+   font-size: 17px;
+   font-weight: bolder;
+   float: right;
+
+   margin-top: 50px;
+   margin-right: 120px;
+}
+/* FIN MAIN ****************/
