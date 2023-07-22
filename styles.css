@@ -192,3 +192,16 @@ main {
    margin-right: 120px;
 }
 /* FIN MAIN ****************/
+/* INICIO FOOTER ****************/
+footer{
+   height: 60px;
+   text-align: center;
+   background: #1f2937;
+   color:#e5e7eb;
+
+   font-size: 15px;
+   padding-top: 30px;
+}
+
+
+/* FIN FOOTER ****************/
